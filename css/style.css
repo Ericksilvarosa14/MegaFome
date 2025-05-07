@@ -1,0 +1,179 @@
+/*
+****** limpar formatações ******
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+****** Formatações genericas ******
+*/
+
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c4c4c4;
+}
+
+h1{
+    color: #252525;
+    font-size: 40px;
+}
+
+h2{
+    color: orange;
+}
+
+h3{
+    color: #565656;
+    background: #cccccc;
+    padding: 5px;
+}
+
+/*
+****** Header ******
+*/
+#header{
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+
+#header a:link, #header a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+
+#menu a:hover {
+    color: orange;        
+    background: white;
+    text-decoration: none;
+}
+
+.white{
+    color: white;
+}
+/*
+****** Conteudo ******
+*/
+
+#content{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#posts{
+    width: 660px;
+    float: left;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    text-align: justify;
+}
+
+.data-post{
+    font-size: 13px;
+    border-bottom: 1px solid orange;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.img-post{
+    text-align: center;
+    width: 620px;
+}
+
+.img-card{
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
+    height: auto;
+
+}
+
+/*
+****** Right-side ******
+*/
+
+#right-side{
+    width: 240px;
+    float: right;
+}
+
+.content-right{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post-right{
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px dotted grey;
+}
+
+/*
+****** Formatação links ******
+*/
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: orange;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*
+****** Footer ******
+*/
+
+#footer{
+    font-size: 15px;
+    clear:both;
+    text-align: center;
+    padding: 13px;
+    background: white;
+    color: orange;
+}
+
+/*
+****** contatus ******
+*/
+
+#contatus{
+    clear: both;
+    text-align: center;
+    font-size: 5px;
+    background: white;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+/*
+****** contatus ******
+*/
+
+#cardapio{
+    float: initial;
+    width: 240px;
+    padding: 20px;
+    background: white;
+    text-align: justify;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
